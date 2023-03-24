@@ -7,7 +7,7 @@ This repository contains code for a text-to-image synthesis application using St
 To use this application, you will need to have Python 3.8 or higher installed on your machine. You can clone this repository using the following command:
 
 
-git clone https://github.com/<username>/<repository>.git
+git clone /repository
 Then, navigate to the cloned directory and install the required packages using pip:
 
 cd <repository>
@@ -33,7 +33,7 @@ The Stable Diffusion model is relatively lightweight and can run on consumer GPU
 This implementation of the Stable Diffusion model uses the weights of the Stable Diffusion v4 model that have been downloaded from the Hugging Face model hub. The model is conditioned on text prompts using a frozen CLIP ViT-L/14 text encoder.
 
 ## References ##
-Stable Diffusion GitHub Repository
-Hugging Face Model Hub
-Latent Diffusion Models by Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
-Diffusers Documentation by Hugging Face
+* Stable Diffusion GitHub Repository
+* Hugging Face Model Hub
+* Latent Diffusion Models by Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer
+* Diffusers Documentation by Hugging Face
